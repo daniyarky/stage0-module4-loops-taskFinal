@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Power {
     public void printPower(int numberToPrint, int power) {
-        double res=1;
+        int res=1;
         if(power>0){
             for (int i = 0; i < power; i++) {
                 res *= numberToPrint;
@@ -17,6 +17,6 @@ public class Power {
     }
 
     public static void main(String[] args) {
-        new Power().printPower(10, 0    );
+        new Power().printPower(0, 4    );
     }
 }
